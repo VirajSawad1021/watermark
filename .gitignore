@@ -1,4 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
 venv/
-output/*
-input/*
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Kiro
+.kiro/
+
+# Testing
+.pytest_cache/
+.hypothesis/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Output folders - ignore images but keep folder structure
+output/*.jpg
+output/*.jpeg
+output/*.png
+output/*.bmp
+output/*.tiff
+input/*.jpg
+input/*.jpeg
+input/*.png
+input/*.bmp
+input/*.tiff
+input/*.txt
+
+# Keep folder structure
+!input/.gitkeep
+!output/.gitkeep
+
+# Keep example files
+!watermark.png
+
+# OS
 .DS_Store
+Thumbs.db
+*.log
+
+# Streamlit
+.streamlit/
